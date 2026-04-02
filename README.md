@@ -1,13 +1,13 @@
 <h1 align="center">CAPruner</h1>
 
-<!-- <p align="center">
-    <a href='http://arxiv.org/abs/'>
+<p align="center">
+    <!-- <a href='http://arxiv.org/abs/'>
       <img src='https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=arXiv&logoColor=red' alt='Paper arXiv'>
-    </a>
+    </a> -->
     <a href='https://huggingface.co/fzzsl/CAPruner/tree/main'>
       <img src='https://img.shields.io/badge/Checkpoints-HF-yellow?style=plastic&logo=huggingface&logoColor=yellow' alt='Checkpoints'>
     </a>
-</p> -->
+</p>
 
 
 This repository contains the official PyTorch implementation for the paper:
