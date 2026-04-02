@@ -1,0 +1,39 @@
+model:
+  node_val: soft
+  hidden_dim: 32
+  agg_p: 3.0
+  dist_metric: lp
+  dist_p: 2.0  # L2 distance
+  # pretrained: outputs/path_to_model_dir/best_model.pth  # modify here for inference
+
+dataset:
+  data_root: data
+  seg_type: m3d  # gt or m3d
+  scannet:
+    train_scans: data/scannet_metadata/scannetv2_train.txt
+    val_scans: data/scannet_metadata/scannetv2_val.txt
+    test_scans: data/scannet_metadata/scannetv2_test.txt
+  scanrefer:
+    train_data: annotations/scanrefer_mask3d_train.json
+    val_data: annotations/scanrefer_mask3d_val.json
+  scanqa:
+    train_data: annotations/scanqa_train.json
+    val_data: annotations/scanqa_val.json
+  multi3drefer:
+    train_data: annotations/multi3dref_mask3d_train.json
+    val_data: annotations/multi3dref_mask3d_val.json
+
+training:
+  train_tag: scanrefer_scanqa_multi3drefer
+  val_tag: scanrefer_scanqa_multi3drefer
+  batch_size: 16  # also used by inference
+  max_obj: 150  # also used by inference
+  lr: 0.001
+  epochs: 50
+  val_freq: 2
+
+inference:
+  infer_tag: scanrefer_scanqa_multi3drefer
+  split: val  # 'train' or 'val'
+  pruning: knn  # knn or mst
+  conn: 2

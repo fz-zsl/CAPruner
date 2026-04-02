@@ -1,0 +1,10 @@
+DateTime==5.5
+logging==0.4.9.6
+networkx==3.2.1
+numpy==2.0.2
+pandas==2.3.3
+PyYAML==6.0.3
+regex==2025.11.3
+tqdm==4.67.1
+typing==3.7.4.3
+typing_extensions==4.15.0
