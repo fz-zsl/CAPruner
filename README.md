@@ -64,6 +64,8 @@ python model/train.py --config config/capruner_m3d_pretrain.yml --val
 python model/inference.py --config config/capruner_m3d_pretrain.yml
 ```
 
+**To skip previous steps**, you can download the inference result based on the [official checkpoint](https://huggingface.co/fzzsl/CAPruner/blob/main/capruner.pth) at [Hugging Face](https://huggingface.co/fzzsl/CAPruner/tree/main/preds). Each file is a `(num_questions, max_num_obj, num_edge_per_obj)` tensor `G`, representing that there is an edge between `j` and `G[i][j][k]` in the scene graph corresponding to the `i`-th 3D-VL task.
+
 4. Generate GNN features for the pruned scene graphs (the `base_path` is the directory where the checkpoint is saved):
 
 ```sh
