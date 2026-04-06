@@ -12,7 +12,7 @@
 
 This repository contains the official PyTorch implementation for the paper:
 
-> 
+> Shengli Zhou, Xiangchen Wang, Guanhua Chen, and Feng Zheng. 2026. CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics.
 
 ## Overview
 
