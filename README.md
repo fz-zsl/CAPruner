@@ -1,8 +1,8 @@
 <h1 align="center">CAPruner</h1>
 
 <p align="center">
-    <a href='https://www.researchgate.net/publication/404391563_CAPruner_Conceptual-Adjacent_Scene_Graph_Pruner_for_Enhancing_3D_Spatial_Reasoning_of_Large_Language_Models'>
-      <img src='https://img.shields.io/badge/Paper-RG-while?style=plastic&logo=researchgate&logoColor=white' alt='Paper ResearchGate'>
+    <a href='https://arxiv.org/abs/2606.07529'>
+      <img src='https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=arXiv&logoColor=red' alt='Paper arXiv'>
     </a>
     <a href='https://huggingface.co/fzzsl/CAPruner/tree/main'>
       <img src='https://img.shields.io/badge/Checkpoints-HF-yellow?style=plastic&logo=huggingface&logoColor=yellow' alt='Checkpoints'>
@@ -81,10 +81,13 @@ We would like to thank the anonymous reviewers for their constructive feedback.
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@misc{zhou2026capruner,
-      title={CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models},
+@misc{zhou2026caprunerconceptualadjacentscenegraph,
+      title={CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models}, 
       author={Shengli Zhou and Xiangchen Wang and Guanhua Chen and Feng Zheng},
       year={2026},
-      url={https://www.researchgate.net/publication/404391563_CAPruner_Conceptual-Adjacent_Scene_Graph_Pruner_for_Enhancing_3D_Spatial_Reasoning_of_Large_Language_Models},
+      eprint={2606.07529},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.07529}, 
 }
 ```
