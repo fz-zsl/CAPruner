@@ -4,6 +4,9 @@
     <a href='https://arxiv.org/abs/2606.07529'>
       <img src='https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=arXiv&logoColor=red' alt='Paper arXiv'>
     </a>
+    <a href='https://fz-zsl.github.io/capruner'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
     <a href='https://huggingface.co/fzzsl/CAPruner/tree/main'>
       <img src='https://img.shields.io/badge/Checkpoints-HF-yellow?style=plastic&logo=huggingface&logoColor=yellow' alt='Checkpoints'>
     </a>
