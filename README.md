@@ -84,13 +84,17 @@ We would like to thank the anonymous reviewers for their constructive feedback.
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@misc{zhou2026caprunerconceptualadjacentscenegraph,
-      title={CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models}, 
-      author={Shengli Zhou and Xiangchen Wang and Guanhua Chen and Feng Zheng},
-      year={2026},
-      eprint={2606.07529},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2606.07529}, 
+@inproceedings{zhou-etal-2026-capruner,
+    title = "{CAP}runer: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3{D} Spatial Reasoning of Large Language Models",
+    author = "Zhou, Shengli and Wang, Xiangchen and Chen, Guanhua and Zheng, Feng",
+    editor = "Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = July,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.23/",
+    pages = "555--567",
+    ISBN = "979-8-89176-390-6"
 }
 ```
