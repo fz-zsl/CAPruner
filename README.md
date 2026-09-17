@@ -10,6 +10,9 @@
     <a href='https://huggingface.co/fzzsl/CAPruner/tree/main'>
       <img src='https://img.shields.io/badge/Checkpoints-HF-yellow?style=plastic&logo=huggingface&logoColor=yellow' alt='Checkpoints'>
     </a>
+    <a href='https://modelscope.cn/models/Chestnut622/CAPruner'>
+      <img src='https://img.shields.io/badge/Checkpoints-MS-blue?style=plastic&logo=huggingface&logoColor=blue' alt='Checkpoints'>
+    </a>
 </p>
 
 
